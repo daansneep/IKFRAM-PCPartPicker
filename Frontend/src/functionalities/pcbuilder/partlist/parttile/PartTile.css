@@ -1,0 +1,28 @@
+.parttile {
+  background-color: #efefef;
+  width: 100%;
+  height: 176px;
+  box-sizing: border-box;
+  padding: 10px;
+  border: #a9a9a9 1px solid;
+}
+.parttile h2 {
+  font-size: 1em;
+}
+.parttile .content img {
+  max-height: 70px;
+}
+.parttile .content p {
+  font-size: 0.7em;
+}
+.parttile:hover {
+  border-color: #3b3b3b;
+  cursor: pointer;
+  background-color: #d2d2d2;
+}
+
+.activated {
+  background-color: #d2d2d2;
+}
+
+/*# sourceMappingURL=PartTile.css.map */

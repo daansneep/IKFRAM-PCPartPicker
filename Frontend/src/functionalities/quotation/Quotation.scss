@@ -1,0 +1,47 @@
+.quotation {
+  width: 100%;
+  max-width: 1000px;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 20px;
+  background-color: #d2d2d2;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+form {
+  div {
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+
+    label {
+      margin: 5px 0;
+    }
+
+    input {
+      border: none;
+      border-radius: 5px;
+      padding: 5px;
+    }
+
+    textarea {
+      border: none;
+      border-radius: 5px;
+      resize: none;
+      padding: 5px;
+      height: 100px;
+    }
+  }
+
+  button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background: black;
+    color: white;
+    font-weight: bolder;
+  }
+}

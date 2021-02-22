@@ -1,0 +1,21 @@
+.pickedentry {
+  width: 96%;
+  display: grid;
+  grid-template-columns: 14% 14% 54% 14%;
+  grid-column-gap: 1.33%;
+  border-bottom: #3b3b3b 1px solid;
+  margin: 10px auto;
+  box-sizing: content-box;
+}
+.pickedentry img {
+  width: 100%;
+}
+.pickedentry .price {
+  height: 135px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+/*# sourceMappingURL=PickedItem.css.map */

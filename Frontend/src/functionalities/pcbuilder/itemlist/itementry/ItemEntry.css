@@ -1,0 +1,30 @@
+.itementry {
+  width: 96%;
+  display: grid;
+  grid-template-columns: 14% 14% 54% 14%;
+  grid-column-gap: 1.33%;
+  border-bottom: #3b3b3b 1px solid;
+  margin: 10px auto;
+  box-sizing: content-box;
+}
+.itementry img {
+  width: 100%;
+}
+.itementry .price-and-order {
+  height: 135px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+.itementry .price-and-order button {
+  height: 35px;
+  width: 80px;
+  border: none;
+  border-radius: 5px;
+  background-color: #59e959;
+  color: white;
+  font-weight: bolder;
+}
+
+/*# sourceMappingURL=ItemEntry.css.map */

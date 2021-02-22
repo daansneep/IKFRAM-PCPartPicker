@@ -1,0 +1,23 @@
+.bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50px;
+  background-color: #99e3e6;
+
+  img {
+    height: 100%;
+  }
+
+  div {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+
+    p {
+      font-size: 1.4em;
+      font-weight: bolder;
+      color: white;
+    }
+  }
+}
